@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://virtual-cards-api.onrender.com'
+  baseURL: 'https://virtual-cards-api-8vkh.onrender.com'
 })
 
 export const getCardsPage = async (pageParam = 4, options = {}) => {
